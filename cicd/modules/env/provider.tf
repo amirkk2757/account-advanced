@@ -8,11 +8,6 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "sanbox-workload-tf-state-f17q"
-    key            = "state/467351975392/terraform.tfstate"
-    region         = "us-east-2"
-    encrypt        = true
-    use_lockfile   = true
   }
 }
 
